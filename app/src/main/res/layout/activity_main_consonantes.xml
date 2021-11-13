@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"><![CDATA[
+    tools:context=".MainActivity_Consonantes">
+
+
+    ]]>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="320dp"
+        android:layout_height="479dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnB"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/btnC"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnD"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnF"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnG"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnH"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnJ"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnK"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnL"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnM"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnN"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnP"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnQ"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnR"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnS"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnT"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnV"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnW"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnX"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+            <ImageButton
+                android:id="@+id/btnY"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="86dp">
+
+            <ImageButton
+                android:id="@+id/btnZ"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                 />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.488" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
